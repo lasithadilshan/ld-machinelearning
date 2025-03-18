@@ -3,6 +3,17 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
+# --- HIDE STREAMLIT BRANDING ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            ._viewerBadge_nim44_23 {display: none;}  /* Hides "Hosted with Streamlit" */
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.title('🤖 Machine Learning App')
 
 st.info('This is app builds a machine learning model!')
